@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="support.css">
+    <title>Customer Support</title>
+</head>
+
+<body>
+    <div id="head">
+        <br>
+        <h1 style="color:red; margin-bottom:10px;">Customer Support</h1>
+        <br>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-header">Tickets</div>
+            <div class="addTicket" id="addTicketBtn">+ Add Ticket</div>
+            <div class="ticket-list" id="ticketList"></div>
+        </div>
+
+        <div class="chat-area">
+            <div class="chat-header" id="chatHeader">Select a ticket</div>
+            <div id="chatWindow"></div>
+
+            <div class="inputBar">
+                <input type="text" id="chatInput" placeholder="Please select a ticket before typing a message" disabled>
+                <button id="sendBtn" disabled>Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="support.js"></script>
+</body>
+
+</html>
